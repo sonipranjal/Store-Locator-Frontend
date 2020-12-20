@@ -2,7 +2,7 @@ let map;
 let markers = [];
 let infoWindow;
 let locationSelect;
-const API_URL = "http://localhost:3000/api/stores";
+const API_URL = "https://mysterious-bastion-01776.herokuapp.com/api/stores";
 
 const onEnter = (e) => {
   if (e.key == "Enter") {
